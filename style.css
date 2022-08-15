@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&family=Open+Sans&display=swap');
+
+:root {
+    --color-base-text: #333333;
+    --color-red: #b44c4c;
+    --color-grey1: #e6e8e3 ;
+    --color-grey2: #d7dacf ;
+    --color-grey3: #bec3bc;
+    --color-grey4: #8f9a9c;
+    --color-grey5: #65727a;
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+html,
+body{
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+.occupation-name{
+    color: var(--color-red);
+    
+}
+
+.color-linkedin{
+    color: var(--color-grey2);
+}
+
+.color-github{
+    color: var(--color-grey3);
+}
+
+.color-whatsapp{
+    color: var(--color-grey4);
+}
+
+.color-mail{
+    color: var(--color-grey5);
+}
+
+.contact-button{
+    text-decoration: none;
+}
